@@ -10,7 +10,7 @@ from pathlib import Path
 from bpy.types import Operator
 from bpy.utils import register_class, unregister_class
 
-importDir = 'C:/Users/Andrey/Desktop'
+importDir = 'C:/ImportDir'
 
 def doImport(fp):
     bpy.ops.import_scene.fbx(filepath = fp)
